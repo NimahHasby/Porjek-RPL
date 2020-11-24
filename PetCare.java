@@ -10,9 +10,9 @@ public class PetCare{
 	}
 
 	public static void menuAwal(){
-		System.out.println("\t*** PetCare Store ***");
-		System.out.println("\tLogin");
-		System.out.println("\tSignUp");
+		System.out.println("*** PetCare Store ***");
+		System.out.println("Login");
+		System.out.println("SignUp");
 		System.out.print("Choose your choice: ");
 		pilihan = input.next();
 		if(pilihan.equalsIgnoreCase("Login")){
@@ -31,6 +31,7 @@ public class PetCare{
 		user = input.next();
 		System.out.print("Password: ");
 		pass = input.next();
+
 
 	}
 
